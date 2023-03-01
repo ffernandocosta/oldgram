@@ -21,14 +21,20 @@
 
 }
 
+/* utility classes */
+
 .flex-group {
     display: flex;
     flex-direction: column;
 }
 
+/* container */
+
 .container {
     background-color: var(--clr-neutral-100);
 }
+
+/* post icon button style */
 
 .post-icon-button {
     background: none;
@@ -37,6 +43,8 @@
     justify-content: flex-start;
     cursor: pointer;
 }
+
+/* text colors */
 
 .text-neutral-100 {
     color: var(--clr-neutral-100);
@@ -50,6 +58,7 @@
     color: var(--clr-neutral-900);
 }
 
+/* background colors */
 
 .bg-neutral-100 {
     background-color: var(--clr-neutral-100);
@@ -62,6 +71,8 @@
 .bg-neutral-900 {
     background-color: var(--clr-neutral-900);
 }
+
+/* font-size and font-weight */
 
 .fs-small { 
     font-size: var(--fs-small);

@@ -30,6 +30,14 @@
     background-color: var(--clr-neutral-100);
 }
 
+.post-icon-button {
+    background: none;
+    border: none;
+    width: 100%;
+    justify-content: flex-start;
+    cursor: pointer;
+}
+
 .text-neutral-100 {
     color: var(--clr-neutral-100);
 }

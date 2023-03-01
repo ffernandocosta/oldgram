@@ -85,3 +85,11 @@
 .fw-bold {
     font-weight: var(--fw-bold);
 }
+
+/* general styling */
+
+body {
+    font-family: var(--ff-primary);
+    font-size: var(--ff-body);
+    font-weight: var(--fw-bold);
+}

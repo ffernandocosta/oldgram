@@ -23,6 +23,11 @@
 
 /* utility classes */
 
+.flex-group {
+    display: flex;
+    flex-direction: column;
+}
+
 .text-neutral-100 {
     color: var(--clr-neutral-100);
 }

@@ -21,11 +21,13 @@
 
 }
 
-/* utility classes */
-
 .flex-group {
     display: flex;
     flex-direction: column;
+}
+
+.container {
+    background-color: var(--clr-neutral-100);
 }
 
 .text-neutral-100 {

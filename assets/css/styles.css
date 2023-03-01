@@ -93,3 +93,24 @@ body {
     font-size: var(--ff-body);
     font-weight: var(--fw-bold);
 }
+
+/* header */
+
+.main-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 1rem;
+    border-bottom: 2px solid hsla(0, 0%, 77%, 1);
+}
+
+.oldgram-logo {
+    width: 90%;
+}
+
+.header-user-avatar {
+    width: 25%;
+    border-radius: 50px;
+    margin-left: auto;
+}
+

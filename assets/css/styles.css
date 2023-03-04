@@ -121,7 +121,9 @@ body {
     gap: 1.5rem;
     background-color: var(--clr-neutral-300);
     max-width: 470px;
-}
+    margin: 0 auto; 
+  }
+  
 
 .post-header {
     display: flex;
@@ -172,3 +174,4 @@ body {
     float: left;
     margin-right: 5px;
 }
+

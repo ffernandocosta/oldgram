@@ -33,8 +33,10 @@ const posts = [
 
 const postsSectionEl = document.getElementById('posts-section');
 
+
 let allPosts = "";
 
+// for loop that loops through all the posts and renders them out
 for (let i = 0; i < posts.length; i++) {
   allPosts += `
     <article class="container">
@@ -73,6 +75,7 @@ for (let i = 0; i < posts.length; i++) {
   `;
 }
 
+// updates the posts section with all the posts
 postsSectionEl.innerHTML = allPosts;
 
 const heartIcons = document.querySelectorAll('.post-icon-button.icon-heart');

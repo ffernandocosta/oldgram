@@ -2,7 +2,6 @@ import { postsData } from "./data.js";
 
 const postsSectionEl = document.getElementById('posts-section');
 
-
 function getPostsArray(posts) {
   const postsArray = []
   for (let post of posts){
@@ -46,9 +45,18 @@ function render(posts) {
     </div>
   </article>`
   }
-  postsSectionEl.innerHTML = allPosts
+  postsSectionEl.innerHTML = allPosts;
+
+  // Add event listeners to like buttons
+  const likeButtons = document.querySelectorAll('.icon-heart');
+  likeButtons.forEach(button => {
+    button.addEventListener('click', () => {
+      const likeCount = button.parentElement.parentElement.nextElementSibling;
+      let currentLikes = parseInt(likeCount.textContent);
+      currentLikes = currentLikes + 1;
+      likeCount.textContent = currentLikes;
+    });
+  });
 }
 
-render(postsData)
-
-
+render(postsData);
